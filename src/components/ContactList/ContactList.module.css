@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 460px;
+
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+
+    font-size: 18px;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+
+    color: #000;
+    background-color: #FFDAB9;
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: #ADD8E6;
+}
